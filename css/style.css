@@ -92,6 +92,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
 .flex-col-1{
     display: flex;
     flex-direction: column;
+    margin-bottom: 15px;
 }
 
 .flex-col-2{
@@ -115,7 +116,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
 
 
 .flex-col-2 .content-info{
-    width: 300px;
+    width: 100%;
 }
 
 .content-info-w{
@@ -219,7 +220,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
     font-size: 12.5px;
     font-weight: 400;
     line-height: 18px;
-    margin-bottom: 80px;
+    margin-bottom: 8px;
 }
 
 .divide-line{
@@ -274,4 +275,211 @@ a.git-link::after{
 
 .rs-school-link{
     margin-right: 100px;
+}
+
+.content-works-flex-container{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 13px;
+}
+
+.content-works-title{
+    margin: 10px 0px 8px 0px;
+    text-align: center;
+}
+
+@media (max-width : 720px){
+    .fio-h1{
+        font-size: 49px;
+        line-height: 63px;
+        margin-bottom: 5px;
+    }
+
+    .about{
+        font-size: 27px;
+    }
+
+    .about-me{
+        font-size: 18px;
+    }
+
+    .content-title{
+        font-size: 24px;
+        line-height: 24px;
+    }
+
+    .content-info-date{
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .content-info-title{
+        font-size: 18px;
+        line-height: 20px;
+    }
+    
+    .content-info-list li{
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .content-info-about-me{
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .content-works-title{
+        font-size: 18px;
+    }
+
+    a.git-link{
+        font-size: 18px;
+        line-height: 40px;
+        text-decoration: underline;
+    }
+
+    a.git-link::after{
+        display: none;
+    }
+
+    .content-info-w span{
+        font-size: 18px;
+    }
+
+    .rs-school-link img{
+        width: 155px;
+        height: 120px;
+    }
+}
+
+@media (max-width : 540px){
+    .flex-col-2{
+        width: 100%;
+    }
+
+    .header{
+        padding-bottom: 40px;
+    }
+
+    .fio{
+        display: block;
+        width: 100%;
+    }
+
+    .fio-h1{
+        font-size: 78px;
+        line-height: 88px;
+        margin-bottom: 5px;
+    }
+
+    .about{
+        font-size: 40px;
+    }
+
+    .fio-image{
+        display: none;
+    }
+
+    .about-me{
+        display: block;
+        font-size: 28px;
+    }
+
+    .flex-row{
+        display: block;
+    }
+
+    .content-info{
+        
+    }
+
+    .content-info-w{
+        width: 100%;
+    }
+
+    .content-title{
+        font-size: 42px;
+        line-height: 44px;
+    }
+
+    .content-info-list li{
+        font-size: 25px;
+        line-height: 27px;
+    }
+
+    .content-info-about-me{
+        width: 100%;
+        font-size: 25px;
+        line-height: 27px;
+    }
+
+    .content-works-title{
+        font-size: 25px;
+    }
+
+    .icons li:nth-child(1)::before{
+       top: 6px;
+    }
+    .icons li:nth-child(2)::before{
+        top: 6px;
+     }
+    .icons li:nth-child(3)::before{
+        top: 6px;
+     }
+    .icons li:nth-child(4)::before{
+        top: 6px;
+    }
+    
+    .content-works-flex-container{
+        margin-top: 15px;
+    }
+
+    a.louvre-link img{
+        width: 220px;
+        height: 150px;
+    }
+
+    a.slider-link img{
+        width: 220px;
+        height: 150px;
+    }
+
+    a.tic-tac-toe-link img{
+        width: 220px;
+        height: 150px;
+    }
+    
+
+    a.git-link{
+        font-size: 25px;
+        line-height: 40px;
+        text-decoration: underline;
+    }
+
+    a.git-link::after{
+        display: none;
+    }
+
+    .content-info-w span{
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .rs-school-link{
+        margin-right: 60px;
+    }
+
+    .rs-school-link img{
+        width: 155px;
+        height: 120px;
+    }
+
+    .footer{
+        margin-top: 10px;
+    }
+}
+
+@media (min-width: 321px){
+    
 }
