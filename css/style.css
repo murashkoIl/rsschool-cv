@@ -16,6 +16,7 @@ html,body{
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
+    /*overflow-x: hidden; */
 }
 input,button,textarea{
     font-family: inherit;
@@ -36,7 +37,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
 }
 
 .container{
-    width: 690px;
+    max-width: 690px;
     margin: 0px auto;
 }
 
@@ -478,8 +479,4 @@ a.git-link::after{
     .footer{
         margin-top: 10px;
     }
-}
-
-@media (min-width: 321px){
-    
 }
